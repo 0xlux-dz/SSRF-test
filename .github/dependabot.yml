@@ -11,3 +11,4 @@ updates:
     schedule: {interval: "daily"}
     registries: "*"
 # cohort retest 200922Z
+# cohort retest 2 201200Z
