@@ -10,3 +10,4 @@ updates:
     directory: "/"
     schedule: {interval: "daily"}
     registries: "*"
+# cohort retest 200922Z
